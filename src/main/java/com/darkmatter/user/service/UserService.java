@@ -5,7 +5,6 @@ import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Flowable;
 import io.reactivex.rxjava3.core.Maybe;
 import io.reactivex.rxjava3.core.Single;
-import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface UserService {

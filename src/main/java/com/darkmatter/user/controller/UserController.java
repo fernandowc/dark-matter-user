@@ -117,16 +117,5 @@ public class UserController {
                         ));
     }
 
-    @PostMapping("/registrarfoto")
-    public Mono<ResponseEntity<User>> registrarCliente(@PathVariable String id, @RequestPart FilePart file, @RequestBody User user) {
-
-        Cloudinary cloudinary = new Cloudinary(ObjectUtils.asMap(
-                "cloud_name", "dqccbt9ko",
-                "api_key", "738857697228694",
-                "api_secret", "QS64lW23ZvbLlVcJvVFxPz78nmU"));
-        return null;
-    }
-
-
 
 }
